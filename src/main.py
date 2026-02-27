@@ -12,15 +12,18 @@ from utils import add
 # Import the specific function from the utils module
 from utils import subtract
 
+# Import the specific function from the utils module
+from utils import multiply
+
+# Import the specific function from the utils module
+from utils import divition
+
 # Define variables to use for the addition and subtraction
 num1 = 25
 num2 = 10
 
-# Call the subtract function with your variables
+# Call the add function with your variables
 result_of_add = add(num1, num2)
-
-
-
 
 # Call the subtract function with your variables
 result_of_subtract = subtract(num1, num2)
