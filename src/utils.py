@@ -23,7 +23,15 @@ def divition(a, b):
     Performs true division of a by b and returns the result as a float.
     Handles division by zero.
     """
-    if b != 0:
-        return a / b
+    try:
+        # Code that might raise an exception is placed in the try block
+        result = a / b
+    except ZeroDivisionError:
+        # Code to handle the specific error (division by zero)
+        return "Error: Cannot divide by zero."
     else:
-        return "Undefined (division by zero)"
+        # Code that runs only if no exception occurred in the try block
+        return result
+    finally:
+        # Code that always runs, regardless of whether an error occurred or not
+        print("Division attempt finished.")

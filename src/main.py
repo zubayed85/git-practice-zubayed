@@ -20,7 +20,7 @@ from utils import divition
 
 # Define variables to use for the addition and subtraction
 num1 = 25
-num2 = 10
+num2 = 0
 
 # Call the add function with your variables
 result_of_add = add(num1, num2)
