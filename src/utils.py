@@ -16,3 +16,14 @@ def multiply(a, b):
   """
   result = a * b
   return result
+
+
+def divition(a, b):
+    """
+    Performs true division of a by b and returns the result as a float.
+    Handles division by zero.
+    """
+    if b != 0:
+        return a / b
+    else:
+        return "Undefined (division by zero)"
